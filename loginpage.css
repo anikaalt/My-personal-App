@@ -1,0 +1,52 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #131e7e, #2b379e, #3e4dd8, #4d5dee, #5464f5);
+}
+
+.header
+{
+	color: white;font-family: 'cursive';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+
+.vertical-menu {
+	width: 200px; 
+  }
+  
+  .vertical-menu a {
+	background-color: rgb(186, 199, 233);
+	color: rgb(8, 7, 80);
+	display: block;
+	padding: 12px; 
+	text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+	background-color: rgb(165, 186, 245);
+  }
+  
+  .vertical-menu a.active {
+	background-color: #81c0fb; 
+	color: white;
+  }
